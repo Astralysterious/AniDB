@@ -1,0 +1,27 @@
+.tooltip span.text:after {
+	margin-left: -10px;
+}
+
+.tooltip span.text:before {
+	margin-left: -11px;
+}
+
+#layout-main div.tabbed_pane div.body {
+	margin-top: -1px;
+}
+
+#layout-main .g_section:not(.tabbed_pane) > .g_bubble > table {
+	padding: 2px;
+}
+
+#layout-tabs {
+	margin-top: -2.7em;
+}
+
+#layout-main div.edit_actions span > * {
+	padding: 2px;
+}
+
+.g_button a {
+	padding: 0px 3px 0px;
+}

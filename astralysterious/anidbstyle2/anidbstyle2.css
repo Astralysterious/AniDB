@@ -1,0 +1,22 @@
+@import "../../common/common.css";
+@import "../../common/style/color/status-pastel.css";
+@import "../../common/libs/select2/select2-border-round.css";
+@import "../../common/libs/select2/style-grey.css";
+@import "../common/border-general.css";
+@import "../common/border-menu.css";
+@import "../common/fonticons_light.css";
+@import "../common/layout-general.css";
+@import "../common/layout-menu.css";
+@import "../common/text-general.css";
+@import "../common/text-menu.css";
+@import "../icons.css";
+@import "../logos.css";
+@import "anidbstyle2-layout.css";
+@import "anidbstyle2-border.css";
+@import "anidbstyle2-color.css";
+@import "anidbstyle2-icons.css";
+@import "anidbstyle2-text.css";
+
+#layout-footer:after {
+	content: "design by deridiot inspired by anidbstyle";
+}

@@ -1,0 +1,630 @@
+/* COLORS
+	#292e42 - dark blue-grey background
+	#464d69 - blue-grey base tile for content tile
+	#3c425a - content tile
+	#cccccc - silver text
+	#004d40 - dark teal
+	#195e53 - light teal
+	#0d2f10 - dark green
+	#5b0e0e - dark red
+	#6b2626 - light red
+	#ff9800 - orange
+	#732800 - dark orange
+	#685f12 - dark yellow
+	#8cb2d2 - link
+	#673ab7 - purple
+	#262a3a - tooltip
+	#949494 - dark grey post info, ...
+	#515877 - personal custom tab, ...
+	#879bea - group ep progress notdone
+	#536fc3 - group ep progress done
+	#73d873 - group ep progress mylist
+	#465179 - quote, quicksearch hover, floated menu hover, nav button
+	#525e88 - quote 2
+	#2f3756 - dark blue generic file, ...
+	#8b92b3 - resize line
+	#1a1e2d - wysibb, ...
+	#00a000 - green ep count in mylist
+	#999999 - highcharts text
+	#2196F3 - highcharts graph 1
+	#ffc107 - highcharts graph 2
+	rgb(140, 178, 210,...) - blue tag cloud
+	rgb(204, 204, 204,...) - silver tag cloud
+ */
+
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_odd,
+.g_definitionlist .g_bubble .g_bubble,
+.g_definitionlist .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_definitionlist .g_odd .g_bubble,
+html,
+#layout-main div.format-buttons input,
+#layout-main div.forum ul.topics li.g_odd.row:hover,
+#layout-main div.forum ul.topics li.row:hover,
+#layout-menu,
+#layout-search ul.quicksearch {
+	background-color: #292e42;
+}
+
+.g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_bubble .g_bubble .g_odd,
+.g_bubble .g_odd,
+.g_odd .g_bubble,
+body.nonav,
+#layout-content,
+#layout-main div.forum ul.topics li.row,
+#layout-tabs ul.main-tabs li.selected,
+#layout-tabs ul.main-tabs li:hover {
+	background-color: #464d69;
+}
+
+#layout-main div.main_all div.account ul.tabs li,
+#layout-main div.main_all div.account ul.tabs li.signup:hover {
+	background-color: #464d69;
+	border-bottom-color: #464d69;
+}
+
+#layout-main div.main_all div.account ul.tabs li.signup a {
+	color: #464d69;
+}
+
+#layout-tabs ul.main-tabs > li.selected,
+#layout-tabs ul.main-tabs > li:hover {
+	border-bottom-color: #464d69;
+}
+
+.highcharts-pie-series .highcharts-point {
+	stroke: #464d69;
+}
+
+#wbbmodal .wbbm,
+#wbbmodal .wbbm-bottom,
+#wbbmodal .wbbm-content,
+#wbbmodal .wbbm-title {
+	background-color: #464d69;
+	color: #cccccc;
+}
+
+.i_mylist_add:before,
+.i_mylist_delete:before,
+.i_mylist_edit:before,
+.i_tv_special:before,
+.i_wishlist_add:before,
+.i_wishlist_delete:before,
+.i_wishlist_edit:before {
+	text-shadow: 0.07em 0.07em 0 #464d69, -0.07em -0.07em 0 #464d69, 0.07em -0.07em 0 #464d69, -0.07em 0.07em 0 #464d69, 0.07em 0.07em 0 #464d69;
+}
+
+#layout-menu li.sub-menu ul li > span button {
+	background-color: #464d69 !important;
+	color: #cccccc !important;
+}
+
+.i_general_unverify:before,
+.i_mylist_add:before,
+.i_mylist_delete:before,
+.i_mylist_edit:before,
+.i_seen_yes.add:before,
+.i_tv_special:before,
+.i_wishlist_add:before,
+.i_wishlist_blacklist:before,
+.i_wishlist_buddy:before,
+.i_wishlist_delete:before,
+.i_wishlist_edit:before,
+.i_wishlist_toget:before,
+.i_wishlist_towatch:before,
+.i_wishlist_undefined:before {
+	text-shadow: 0.07em 0.07em 0 #464d69, -0.07em -0.07em 0 #464d69, 0.07em -0.07em 0 #464d69, -0.07em 0.07em 0 #464d69, 0.07em 0.07em 0 #464d69;
+}
+
+#layout-main div.main_all div.account ul.tabs li,
+#layout-main div.main_all div.account ul.tabs li.signup:hover {
+	border-color: #464d69;
+}
+
+.g_bubble,
+.g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble .g_bubble,
+.tooltip > span.text.g_bubble,
+div.g_odd,
+li.g_odd,
+span.g_odd,
+tr.g_odd,
+#layout-main div.addtagentityrel_all #tag-list div.g_odd,
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover,
+#layout-main div.forum div.g_bubble.navbar,
+#layout-main div.forum div.g_bubble.options-box,
+#layout-main div.forum div.g_bubble.posting-box,
+#layout-main div.forum div.g_bubble.search,
+#layout-main div.forum div.g_bubble.submit-box,
+#layout-main div.forum ul.topics li.g_odd.row,
+#layout-main div.tabbed_pane ul.tabs li.selected,
+#layout-main div.tabbed_pane ul.tabs li:hover,
+#layout-main div.userpage_all div.g_menu ul,
+#layout-main div.userpage_all div.g_menu ul li.g_odd {
+	background-color: #3c425a;
+	color: #cccccc;
+}
+
+#layout-search ul.quicksearch {
+	background-color: #3c425a;
+}
+
+/* hover color on some links doesn't work w/o important  */
+.g_bubble .name-colored,
+a:hover,
+span.link:hover,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries a.name-colored,
+#layout-main div.cmt_entries a.username-colored,
+#layout-main div.cmt_entries a.username-colored,
+#layout-main div.forum .g_bubble.infobox h3,
+#layout-main div.forum a.topictitle:hover,
+#layout-main div.forum a.topictitle:hover,
+#layout-main div.forum a.username-colored,
+#layout-main div.forum a.username-colored,
+#layout-main div.main_all div.account ul.tabs li.signup:hover a,
+#layout-menu li.sub-menu span.tab {
+	color: #ff9800 !important;
+}
+
+.i_ext.audio,
+#layout-main div.main_all div.account ul.tabs li.signup {
+	background-color: #ff9800;
+}
+
+#layout-main div.chartag-list a:hover,
+#layout-main div.tag-column a:hover {
+	color: #ff9800 !important;
+}
+
+#layout-menu li.sub-menu ul li > span button:hover {
+	background-color: #3c425a !important;
+	color: #ff9800 !important;
+}
+
+.fancybox-wrap div.g_msg.note,
+#layout-hint,
+#layout-main div.addcharanimerel_all tr.same_name,
+#layout-main div.addcreatoranimerel_all tr.same_name,
+#layout-main div.addcreatorsongrel_all tr.same_name,
+#layout-main div.addsongcollectionrel_all tr.same_name,
+#layout-main div.g_msg.note,
+#layout-main div.timeline_all .liststate_dropped {
+	background-color: #673ab7;
+	color: #cccccc;
+}
+
+.g_info,
+.g_input,
+.g_list,
+.g_section,
+caption,
+form,
+h1,
+h2,
+h3,
+h4,
+td.action,
+td.check,
+td.date,
+td.icon,
+td.ignore,
+td.name.owner,
+td.name.user,
+td.number.eps,
+td.rating,
+td.state,
+td.stats,
+td.type,
+td.vote,
+th,
+tr.action td.submit,
+tr.action td.value,
+#layout-footer p {
+	color: #cccccc;
+}
+
+/* bg color changes don't work in Chrome */
+.g_bubble.box.mylist > div.top,
+.g_bubble.stripe.mylist,
+#layout-main .identical,
+#layout-main div.addcreatoranimerel_all tr.identical,
+#layout-main div.addcreatorsongrel_all tr.identical,
+#layout-main div.anime_all div.tabbed_pane_main div.similaranime div.stripe.mylist,
+#layout-main div.anime_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.animelist_all table tr.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.forum a.topictitle strong,
+#layout-main div.forum div.comment div.content strong,
+#layout-main div.group_released table tr.mylist,
+#layout-main div.latest2_all table tr td.mylist,
+#layout-main div.latest2_all table tr.mylist,
+#layout-main div.msg_all tr.mod,
+#layout-main div.mynotifies_all table tr.mylist,
+#layout-main div.myreviews_all table tr.mylist,
+#layout-main div.mywishlist_all table tr.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr td.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.mylist,
+#layout-main div.timeline_all .liststate_completed,
+#layout-main input.include,
+#layout-main table.animelist tr.mylist,
+#layout-main table.file.entities tr.good,
+#layout-main table.filelist tr.good,
+#layout-main td ins {
+	background-color: #004d40;
+	color: #cccccc;
+}
+
+/* IE fix - affects Chrome too */
+#layout-main div:not(.ed2kdump_all) tr td.mylist {
+	background-color: #004d40;
+}
+
+#layout-main div.anime_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.animelist_all table tr.g_odd.mylist,
+#layout-main div.character_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.collection_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.creator_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.group_released table tr.g_odd.mylist,
+#layout-main div.latest2_all table tr.g_odd td.mylist,
+#layout-main div.latest2_all table tr.g_odd.mylist,
+#layout-main div.msg_all tr.g_odd.mod,
+#layout-main div.mynotifies_all table tr.g_odd.mylist,
+#layout-main div.myreviews_all table tr.g_odd.mylist,
+#layout-main div.mywishlist_all table tr.g_odd.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd td.mylist,
+#layout-main div.song_all div.tabbed_pane_main table tr.g_odd.mylist,
+#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_completed,
+#layout-main table.animelist tr.g_odd.mylist,
+#layout-main table.file.entities tr.g_odd.good,
+#layout-main table.filelist tr.g_odd.good,
+#layout-main td.g_odd ins {
+	background-color: #195e53;
+}
+
+/* IE fix */
+#layout-main div:not(.ed2kdump_all) tr.g_odd td.mylist {
+	background-color: #195e53;
+}
+
+#layout-main .different,
+#layout-main div.addcreatoranimerel_all tr.right_only,
+#layout-main div.addcreatorsongrel_all tr.right_only,
+#layout-main div.myvotes_all table tr.g_odd td.myvote.low,
+#layout-main div.timeline_all div.timeline ul.row.g_odd .liststate_stalled,
+#layout-main table.file.entities tr.g_odd.deprecated,
+#layout-main table.file.entities tr.g_odd.invalid,
+#layout-main table.filelist tr.g_odd.deprecated,
+#layout-main table.filelist tr.g_odd.invalid {
+	background-color: #5b0e0e;
+}
+
+#layout-main div.addcreatoranimerel_all tr.left_only,
+#layout-main div.addcreatorsongrel_all tr.left_only,
+#layout-main div.myvotes_all table tr td.myvote.low,
+#layout-main div.timeline_all .liststate_stalled,
+#layout-main input.exclude,
+#layout-main table.file.entities tr.deprecated,
+#layout-main table.file.entities tr.invalid,
+#layout-main table.filelist tr.deprecated,
+#layout-main table.filelist tr.invalid,
+#layout-main td del,
+#layout-main tr.g_fs_lame {
+	background-color: #6b2626;
+}
+
+.g_button a span,
+button,
+h2 span,
+h4 span,
+#layout-footer p,
+#layout-main .g_bubble.graph div.header,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div strong,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.block div.data table th,
+#layout-main div.edit_actions span,
+#layout-main div.g_bubble.code,
+#layout-main div.g_bubble.quotebody,
+#layout-main div.g_bubble.spoiler,
+#layout-main div.g_definitionlist tr th,
+#layout-main div.g_menu.user ul li,
+#layout-main div.g_timedentry h4,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-tabs ul.main-tabs,
+#layout-tabs ul.main-tabs li.selected a,
+#layout-tabs ul.main-tabs li:hover a {
+	color: #cccccc;
+}
+
+.g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
+	background-color: #465179 !important;
+}
+
+.g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody,
+.g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody .g_bubble.quotebody {
+	background-color: #525e88 !important;
+}
+
+/* duplicates START */
+#layout-search ul.quicksearch li.focus,
+#layout-search ul.quicksearch li:hover {
+	background-color: #465179;
+}
+
+#layout-search ul.quicksearch li.focus,
+#layout-search ul.quicksearch li:hover {
+	background-color: #465179;
+}
+/* duplicates END */
+
+.tooltip span.text,
+#imagepreview {
+	background-color: #262a3a !important;
+	color: #cccccc;
+}
+
+.tooltip span.text:after,
+.tooltip span.text:before {
+	border-bottom-color: #262a3a;
+}
+
+#layout-footer:after {
+	color: #cccccc;
+}
+
+.i_ext,
+.i_video_1080,
+.i_video_480,
+.i_video_720,
+.i_vrs_2,
+.i_vrs_3,
+.i_vrs_4,
+.i_vrs_5,
+.i_vrs_6,
+.i_vrs_7,
+.i_vrs_8,
+.i_vrs_9,
+#layout-main div.forum .g_bubble.infobox .row > div.middle .bar {
+	background-color: #8cb2d2;
+}
+
+.i_icon,
+a,
+a:active,
+a:link,
+a:visited,
+h4 span.nolink a,
+span.link,
+th a,
+#layout-main a.filter,
+#layout-main div.main_all div.account ul.tabs li.signup a {
+	color: #8cb2d2;
+}
+
+.highcharts-axis-labels,
+.highcharts-axis-title,
+.highcharts-button-symbol,
+.highcharts-no-data text,
+.highcharts-range-label text,
+.highcharts-scrollbar-arrow,
+.highcharts-scrollbar-rifles,
+.highcharts-subtitle {
+	fill: #949494;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__placeholder,
+.select2-container--default .select2-selection--single .select2-selection__placeholder,
+#layout-main div.addsimilaranime_all div.addsimilaranime_entries div.profile div,
+#layout-main div.main_all div.news.forum div.latestnews div.posted {
+	color: #949494;
+}
+
+a.button,
+a.confirmButton,
+button.button,
+button.confirmButton,
+input.button,
+input.confirmButton {
+	border-color: #999999 #858585 #949494;
+}
+
+.g_filter .flap {
+	box-shadow: 0px 1px 3px #949494;
+}
+
+#layout-main div.tabbed_pane ul.tabs li {
+	background-color: #515877;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.notdone,
+#layout-main div.group_all div.group_released td.epbar div.notdone {
+	background-color: #879bea;
+	border-bottom-color: #879bea;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done,
+#layout-main div.group_all div.group_released td.epbar div.done {
+	background-color: #536fc3;
+	border-bottom-color: #536fc3;
+}
+
+#layout-main div.anime_all div.groups td.epbar div.done.mylist,
+#layout-main div.group_all div.group_released td.epbar div.done.mylist {
+	border-bottom-color: #73d873;
+}
+
+#layout-main table.file.entities tr.generic,
+#layout-main table.filelist tr.generic {
+	background-color: #2f3756;
+}
+
+table,
+#layout-main div.info div.extra div table {
+	border-top-color: #2f3756;
+}
+
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on,
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn.on:hover {
+background-color: #515877;
+}
+
+/* system messages */
+.fancybox-wrap div.g_msg.error,
+#layout-main div.g_msg.error {
+background-color: #5b0e0e;
+}
+
+.fancybox-wrap div.g_msg.warning,
+#layout-main div.g_msg.warning {
+background-color: #732800;
+}
+
+.fancybox-wrap div.g_msg.note,
+#layout-main div.g_msg.note {
+background-color: #685f12;
+}
+
+.fancybox-wrap div.g_msg.success,
+#layout-main div.g_msg.success {
+background-color: #0d2f10;
+}
+
+#layout-hint.mod {
+background-color: #732800;
+}
+
+.bottom-resize-line.drag,
+.bottom-resize-line:hover {
+background: #8b92b3;
+}
+
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn span.btn-tooltip {
+background: #1a1e2d;
+}
+
+#layout-main div.timeline_all div.timeline ul.legend li span {
+background: #1a1e2d;
+}
+
+.dialogBox h3 {
+background: #1a1e2d none repeat scroll 0 0;
+}
+
+.wysibb .wysibb-toolbar .wysibb-toolbar-container .wysibb-toolbar-btn span.btn-tooltip ins {
+border-top: 10px solid #1a1e2d;
+}
+
+.cnt, .range, .statistics, .linklist {
+color: #cccccc;
+}
+
+#layout-main div.mylist_list tr.all_watched td.stats {
+color: #00a000;
+}
+
+.highcharts-data-label text {fill: #999999;}
+
+.highcharts-color-1 {fill: #2196F3;stroke: #2196F3;}
+
+.highcharts-color-2 {
+fill: #ffc107;
+stroke: #ffc107;
+}
+
+/*tag cloud*/
+#layout-main div.tag-column div.tag[data-anidb-weight="0"] .name a {
+color: rgba(204, 204, 204, 0.6);
+}
+
+#layout-main div.tag-column div.tag.abstract[data-anidb-weight="0"] .name a,
+#layout-main div.tag-column span.not_added a {
+color: rgba(204, 204, 204, 0.3);
+}
+
+#layout-main div.chartag-list span.size0 a,
+#layout-main div.chartag-list span.size1 a,
+#layout-main div.tag-column div.tag[data-anidb-weight="100"] .name a {
+color: rgba(140, 178, 210, 0.5);
+}
+
+#layout-main div.chartag-list span.size2 a,
+#layout-main div.tag-column div.tag[data-anidb-weight="200"] .name a {
+color: rgba(140, 178, 210, 0.6);
+}
+
+#layout-main div.chartag-list span.size3 a,
+#layout-main div.tag-column div.tag[data-anidb-weight="300"] .name a {
+color: rgba(140, 178, 210, 0.7);
+}
+
+#layout-main div.chartag-list span.size4 a,
+#layout-main div.chartag-list span.size5 a,
+#layout-main div.tag-column div.tag[data-anidb-weight="400"] .name a {
+color: rgba(140, 178, 210, 0.8);
+}
+
+#layout-main div.chartag-list span.size6 a,
+#layout-main div.chartag-list span.size7 a,
+#layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a {
+color: rgba(140, 178, 210, 1.0);
+}
+
+#layout-main div.chartag-list span.size10 a,
+#layout-main div.chartag-list span.size8 a,
+#layout-main div.chartag-list span.size9 a,
+#layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
+color: rgba(140, 178, 210, 1.0);
+}
+
+span.test:hover,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-main div.search_all div.suggestions span:hover,
+#layout-main div.spoiler button.spoiler:hover,
+#layout-main tr.header th.sortable:hover:not(.sorter-false),
+#layout-main tr.header th.sortable:hover:not(.sorter-false) a,
+#layout-menu li.user-xauth input[type="button"] {
+background-color: #465179;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+#layout-main ul.g_list li.g_odd:hover,
+#layout-main ul.g_list li.selected,
+#layout-main ul.g_list li:hover {
+background-color: #465179;
+}
+
+.g_button a:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+#layout-main div.edit_actions span > *:hover,
+#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover,
+#layout-main ul.g_list li.g_odd:hover,
+#layout-main ul.g_list li.selected,
+#layout-main ul.g_list li:hover,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a {
+background-color: #465179;
+}

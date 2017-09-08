@@ -1,0 +1,8 @@
+#layout-menu li.sub-menu ul {
+	background: url("images/menuback.png") repeat transparent;
+}
+
+#layout-menu li.sub-menu ul li:active,
+#layout-menu li.sub-menu ul li:hover {
+	background: url("images/menuhover.png") repeat left top transparent;
+}

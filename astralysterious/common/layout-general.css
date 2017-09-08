@@ -1,0 +1,451 @@
+td,
+th {
+	padding: 1px 0.5em;
+	height: 1.9em;
+}
+
+input[size="10"] {
+	width: 7em;
+}
+
+input[size="15"] {
+	width: 10em;
+}
+
+input[size="50"] {
+	width: 27.5em;
+}
+
+input[size="60"] {
+	width: 36em;
+}
+
+input[size="80"] {
+	width: 48em;
+}
+
+textarea {
+	width: 48em;
+	height: 8em;
+}
+
+textarea.short {
+	height: 3em;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: 0.1em;
+	margin-bottom: 0.3em;
+}
+
+.g_button a,
+.g_filter .row > button,
+button,
+input[type="number"],
+input[type="password"],
+input[type="text"],
+select:not(.shuttle),
+#layout-main div.msg_all div.buttons button,
+#layout-main div.msg_all div.buttons li a,
+#layout-main div.msg_all ul.g_list li.sent a,
+#layout-main div.postbody .actions a,
+#layout-main div.topic_actions .g_button a {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 26px;
+	line-height: 22px;
+}
+
+button,
+input[type="checkbox"],
+input[type="number"],
+input[type="password"],
+input[type="radio"],
+input[type="text"],
+select {
+	vertical-align: middle;
+}
+
+.g_button a,
+a.button,
+a.confirmButton,
+button,
+button.button,
+button.confirmButton,
+input.button,
+input.confirmButton,
+input[type="button"],
+input[type="number"],
+input[type="password"],
+input[type="submit"],
+input[type="text"],
+select,
+span.test,
+#layout-main .g_definitionlist table tr td,
+#layout-main div.addsongcollectionrel_all div.massadd_new_songs td,
+#layout-main div.edit_actions span > *,
+#layout-main div.forum div.search form button,
+#layout-main div.forum div.search form input,
+#layout-main div.forum div.search form select,
+#layout-main div.g_definitionlist tr th,
+#layout-main div.g_menu ul li,
+#layout-main div.pagination span a,
+#layout-main div.pagination span strong,
+#layout-main div.userpage_all div.buddies ul li,
+#layout-main div.userpage_all div.favreviewers ul li,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink,
+#layout-menu li.sub-menu ul li,
+#layout-tabs ul li a {
+	padding: 2px 8px;
+}
+
+.i_icon + .i_icon {
+	margin-left: 0.25em !important;
+}
+
+h2 {
+	line-height: 1.6em;
+}
+
+h2 .i_help,
+h3 .i_help,
+h4 .i_help {
+	margin-top: -0.3em;
+}
+
+.sortable_shuttle h4 + button {
+	margin-top: -3em;
+}
+
+#layout-nav {
+	display: block;
+	height: 6em;
+}
+
+#layout-main {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#layout-menu {
+	display: block;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 105;
+}
+
+#layout-search {
+	display: block;
+	height: 56px;
+	left: 0;
+	margin-left: 1em;
+	position: absolute;
+	top: 3em;
+	width: 60em;
+}
+
+#layout-search div.search {
+	margin-left: 16em;
+	margin-top: 1.3em;
+	width: 100%;
+}
+
+#layout-search div.search form > div {
+	width: 450px;
+}
+
+#layout-search .text {
+	width: 237px;
+	margin: 0;
+}
+
+#layout-search .submit {
+	float: right;
+	width: 80px;
+	margin: 0 0 0 3px;
+	height: 28px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#layout-search select {
+	margin-left: -4px;
+	min-height: 0;
+}
+
+#layout-main > h1 {
+	display: block;
+	text-align: left;
+	padding: 4px;
+}
+
+#layout-footer p {
+	margin-bottom: 0;
+}
+
+#layout-main div.main_all,
+#layout-main h1.main {
+	display: none;
+}
+
+#layout-menu > li ul {
+	display: none;
+	position: absolute;
+	z-index: 105;
+	margin-left: -.7em;
+	padding: 0;
+}
+
+#layout-menu span.tab {
+	display: block;
+	position: relative;
+}
+
+#layout-menu > li {
+	display: block;
+	float: left;
+	padding-left: .7em;
+	padding-right: .7em;
+}
+
+#layout-nav div.menu_hr {
+	display: block;
+	margin-top: 2.5em;
+}
+
+#layout-tabs {
+	margin: -2.6em 1em 1em 0;
+	min-height: 26px;
+}
+
+#layout-tabs,
+#layout-tabs ul {
+	display: block;
+	text-align: right;
+}
+
+#layout-tabs ul li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#layout-tabs ul li a {
+	display: inline-block;
+}
+
+#layout-menu li.sub-menu span.tab {
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+
+#layout-footer {
+	text-align: center;
+}
+
+#layout-content div.dbstats_all {
+	padding-left: 9.6em;
+	padding-right: 8em;
+}
+
+caption,
+h4,
+#layout-main div.g_timedentry h4 {
+	padding: .3em;
+}
+
+#layout-main .g_definitionlist {
+	margin: 2px 0 0;
+}
+
+#layout-main div.animeatt_reviews div.review div.text {
+	margin-top: 1em;
+	padding: 8px;
+}
+
+#layout-main div.g_timedentry div.avatar {
+	margin: 1.5em 1em 1em;
+}
+
+#layout-main div.g_timedentry div.body {
+	margin-top: .5em;
+	padding: 8px;
+}
+
+/*bit of extra width for the icon tom look less squished*/
+#layout-main tr.header th.sortable:not(.sorter-false) {
+	padding: 0 0.5em 0 1em;
+}
+
+#layout-main div.creq_all .links .creq_list a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .next_new_creq a,
+#layout-main div.edit_actions span > *,
+#layout-main div.pagination span a,
+#layout-main div.pagination span strong,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-main tr.header th,
+#layout-main tr.header th.sortable a,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink,
+#layout-tabs ul li a {
+	line-height: 20px;
+}
+
+#layout-main tr.header th.sortable a,
+#layout-menu li.sub-menu ul li a {
+	display: block;
+}
+
+.g_button a,
+button,
+#layout-main div.pagination span a,
+#layout-main div.pagination span strong,
+#layout-main ul.g_list li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.g_button a span {
+	display: inline-block;
+	padding-left: 6px;
+}
+
+#layout-main div.main_all div.news p.comment {
+	margin: -2.3em 0 0;
+}
+
+#layout-main div.news h4 {
+	padding: 6px;
+}
+
+.g_image,
+#layout-main div.g_content {
+	padding: 1px;
+}
+
+#layout-main .block .g_definitionlist table {
+	margin: 0;
+}
+
+#layout-main div.addtagentityrel_all div.suggestions > span {
+	margin: 1px;
+}
+
+#layout-main div.addtagentityrel_all div.suggestions > span.focus,
+#layout-main div.addtagentityrel_all div.suggestions > span:hover {
+	margin: 0px;
+}
+
+#layout-main div.addsongcollectionrel_all div.massadd_new_songs td input[type="text"] {
+	width: 98%;
+}
+
+#layout-main div.userpage_all div.stats table th {
+	width: 8.5em;
+}
+
+#layout-main div.votes_all div.container + div.container {
+	margin-left: 0.5em;
+}
+
+#layout-main div.forum div.buttons a + a,
+#layout-main ul.g_list + button {
+	margin-left: 0.4em !important;
+}
+
+#layout-main div.block div.data table th {
+	width: 10em;
+}
+
+#layout-main ul.g_list li {
+	margin-bottom: 0.5em;
+}
+
+.g_filter .settings input.name {
+	height: 28px;
+}
+
+#layout-main div.cmt_entries div.postbody span.actions a + a {
+	margin-right: 0.4em;
+	margin-left: 0 !important;
+}
+
+#layout-main div.animelist_all table.animelist tr td.action .i_icon,
+#layout-main div.mylist_all table.animelist > tbody > tr > td.action .i_icon {
+	margin: 0.1em 0.2em !important;
+}
+
+#layout-main ul.g_list li {
+	padding: 0;
+}
+
+#layout-main h2 + div.edit_actions {
+	margin-top: -3.4em;
+}
+
+#layout-main div.main_all div.calendar > div.edit_actions {
+	margin-top: -2.8em;
+}
+
+#layout-main div.userpage_all > div.g_section.info div.edit_actions {
+	margin-top: -3.9em;
+}
+
+#layout-main div.userpage_all > div.g_section div.edit_actions {
+	top: 0em;
+}
+
+#layout-main div.pagination {
+	line-height: 26px;
+}
+
+#preferences div.pane div.settings.block {
+	width: 42em;
+}
+
+#preferences div.tabbed_pane div.default_languages .titles select {
+	width: calc(100% - 4em);
+}
+
+#layout-main div.calendar_all .date_selector + .g_list,
+#preferences div.tabbed_pane div.permissions div.permissions div label select {
+	margin-top: -2.5em;
+}
+
+#layout-main div.cmt_entries div.comment:not(.creq_state) div.postbody span.actions:not(:empty) + p.author {
+	margin-top: -2.4em;
+}
+
+#layout-menu li.sub-menu ul li.user-xname {
+	padding-bottom: 0.3em;
+}
+
+#layout-menu li.sub-menu ul li.user-xauth {
+	padding-bottom: 0.5em;
+}
+
+#layout-menu .user-xauth button,
+#layout-menu .user-xname input,
+#layout-menu .user-xpass input {
+	width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 28px;
+}
+
+@media screen and (max-width: 1000px) {
+	input[size="80"],
+	textarea {
+		width: 100%;
+	}
+}
+
+/*@media screen and (max-width: 600px) {
+	#layout-tabs ul li a {
+		padding: 2px 4px;
+	}
+}*/

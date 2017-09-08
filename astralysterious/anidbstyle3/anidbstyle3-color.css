@@ -1,0 +1,171 @@
+.g_button a:hover,
+button:hover,
+h4 a:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+table th.sortable:hover:not(.sorter-false),
+th a:hover,
+#layout-main div.edit_actions span > *:hover,
+#layout-main div.pagination span a:hover,
+#layout-main div.pagination span strong,
+#layout-main ul.g_list li.g_odd:hover,
+#layout-main ul.g_list li.selected,
+#layout-main ul.g_list li:hover,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a {
+	color: #C0DAF0 !important;
+}
+
+#layout-main div.userpage_all div.g_menu ul li:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover .v_high,
+#layout-main div.userpage_all div.g_menu ul li:hover a {
+	color: #DDDDDD !important;
+}
+
+#layout-main div.userpage_all .g_section.achievements > .container > .container,
+#layout-menu .sub-menu {
+	background-color: inherit !important;
+}
+
+.g_button a,
+button,
+input[type="button"],
+input[type="submit"],
+#layout-main div.edit_actions span > *,
+#layout-main ul.g_list li,
+#layout-main ul.g_list li.g_odd {
+	background-color: #34394D;
+	border-color: #34394D;
+}
+
+#layout-main div.anime_all .staffblock + .staffblock table,
+#layout-main div.ep_all .staffblock + .staffblock table {
+	border-color: #34394D !important;
+}
+
+.g_button a,
+button,
+input[type="button"],
+input[type="submit"],
+th,
+th a,
+#layout-main div.edit_actions span > *,
+#layout-main ul.g_list li,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li.g_odd {
+	color: #CCCCCC !important;
+}
+
+.g_button a,
+button,
+input[type="button"],
+input[type="submit"],
+#layout-main div.addfilem.form div.dump textarea,
+#layout-main div.calendar_all .date_selector input.year,
+#layout-main div.calendar_all .date_selector select,
+#layout-main div.edit_actions span > *,
+#layout-main div.forum div.quickreply textarea,
+#layout-main div.pagination span a,
+#layout-main div.pagination span strong,
+#layout-main ul.g_list li,
+#layout-main ul.g_list li.g_odd,
+#layout-search input.text,
+#layout-search select {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.g_bubble,
+#layout-content,
+#layout-hint,
+#layout-main > h1,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.g_msg,
+#layout-main div.g_timedentry h4,
+#layout-main div.userpage_all div.g_menu ul,
+#layout-menu li.sub-menu ul {
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-tabs ul.main-tabs > li {
+	box-shadow: 2px -2px 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+#layout-main div.main_all div.account ul.tabs li {
+	box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*disable shadow so it doesn't overlap with the quicksearch pane*/
+#layout-search input.text.focus,
+#layout-search input.text.focus + select,
+#layout-search ul.quicksearch .g_bubble.stripe {
+	box-shadow: none;
+}
+
+.g_button a:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+#layout-main div.edit_actions span > *:hover,
+#layout-main div.userpage_all div.g_menu ul li.g_odd:hover,
+#layout-main div.userpage_all div.g_menu ul li:hover,
+#layout-main ul.g_list li.g_odd:hover,
+#layout-main ul.g_list li.selected,
+#layout-main ul.g_list li:hover,
+#layout-menu li.sub-menu ul li:hover,
+#layout-menu li.sub-menu ul li:hover a {
+	background-color: #58636E;
+}
+
+#layout-main div.userpage_all div.g_menu ul,
+#layout-main div.userpage_all div.g_menu ul li.g_odd {
+	background-color: #B9BBBF;
+}
+
+#layout-menu li.sub-menu ul li > span button {
+	background-color: #CFD1D4 !important;
+	color: #000000 !important;
+}
+
+#layout-menu li.sub-menu ul li > span button:hover {
+	background-color: #B9BBBF !important;
+	color: #AA0000 !important;
+}
+
+/*stroke around the wishlist icons*/
+.i_general_unverify:before,
+.i_mylist_add:before,
+.i_mylist_delete:before,
+.i_mylist_edit:before,
+.i_seen_yes.add:before,
+.i_tv_special:before,
+.i_wishlist_add:before,
+.i_wishlist_blacklist:before,
+.i_wishlist_buddy:before,
+.i_wishlist_delete:before,
+.i_wishlist_edit:before,
+.i_wishlist_toget:before,
+.i_wishlist_towatch:before,
+.i_wishlist_undefined:before {
+	text-shadow: 0.07em 0.07em 0 #CFD1D4, -0.07em -0.07em 0 #CFD1D4, 0.07em -0.07em 0 #CFD1D4, -0.07em 0.07em 0 #CFD1D4, 0.07em 0.07em 0 #CFD1D4;
+}
+
+#layout-main div.main_all div.g_section > h2 {
+	background-color: inherit;
+	color: inherit;
+	border-color: #9A9A9A;
+}
+
+#layout-main div.main_all div.account ul.tabs li,
+#layout-main div.main_all div.account ul.tabs li.signup:hover {
+	border-color: #CFD1D4;
+}
+
+#layout-main div.info div.extra div h2,
+#layout-main div.main_all div.account tr.g_odd {
+	background-color: inherit;
+}
+
+#layout-main div.info div.extra div h2 {
+	color: inherit;
+}

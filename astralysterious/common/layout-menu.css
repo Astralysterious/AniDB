@@ -1,0 +1,180 @@
+body,
+html {
+	height: 100%;
+}
+
+#layout-content,
+#layout-main {
+	min-height: 100%;
+}
+
+#layout-content #layout-main div.g_content {
+	min-height: 94em;
+}
+
+#layout-content {
+	margin-left: 12.5em;
+	margin-top: -10.5em;
+	padding-left: 1em;
+	padding-top: 1px;
+	padding-bottom: 1em;
+}
+
+#layout-main {
+	margin-left: 0;
+}
+
+#layout-menu {
+	display: block;
+	margin-left: 0.9em;
+	position: static;
+	width: 10em;
+	padding-top: 0.5em;
+}
+
+#layout-menu > li {
+	display: block;
+	float: none;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#layout-menu > li ul {
+	display: block;
+	margin-left: 0;
+	padding: 0;
+	position: relative;
+}
+
+#layout-menu li.sub-menu {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+#layout-menu span.tab,
+#layout-nav div.menu_hr {
+	display: none;
+}
+
+#layout-nav {
+	margin-top: 102px;
+	height: 1px;
+	padding-bottom: 0;
+}
+
+#layout-hint + #layout-nav {
+	margin-top: 122px;
+}
+
+#layout-hint + #layout-nav #layout-search {
+	margin-top: 2em;
+}
+
+#layout-content,
+#layout-menu {
+	margin-top: 0.5em;
+}
+
+#layout-menu li.sub-menu ul li {
+	padding: 0;
+}
+
+#layout-menu li.sub-menu ul li > a span,
+#layout-menu li.sub-menu ul li > span {
+	padding: 0 8px;
+}
+
+#layout-main div.main_all,
+#layout-main h1.main,
+#layout-menu li.sub-menu ul li.user-xkeep > label {
+	display: block;
+}
+
+#layout-search {
+	top: 5px;
+	height: 70px;
+	margin-left: 0;
+	width: 100%;
+}
+
+#layout-search div.search {
+	margin-left: 0;
+	margin-top: 0;
+	height: 70px;
+}
+
+#layout-search div.search form > div {
+	position: absolute;
+	left: auto;
+	right: 1em;
+	top: 2.8em;
+	width: 450px;
+}
+
+#layout-search div.search a.advsearch {
+	display: block;
+	position: absolute;
+	right: 1.5em;
+	top: 1.7em;
+}
+
+#layout-menu li.sub-menu ul li > a,
+#layout-menu li.sub-menu ul li > label,
+#layout-menu li.sub-menu ul li > span {
+	line-height: 17px;
+}
+
+/*clickable logo*/
+#layout-search .submit,
+#layout-search input.text,
+#layout-search select {
+	z-index: 105;
+}
+
+#layout-search ul.quicksearch {
+	z-index: 106;
+}
+
+#layout-menu li.sub-menu ul li.main span {
+	display: none;
+}
+
+#layout-menu li.sub-menu ul li.main a {
+	position: absolute;
+	height: 75px;
+	margin-top: -100px;
+	width: calc(100vw - 45em);
+}
+
+/*clickable logo*/
+#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu .alert > span a {
+	display: inline-block;
+	width: auto;
+	margin-right: -0.3em;
+}
+
+#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu .alert > span a span {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#anidb:not(.nodropdownmenu) #menu-account li.alert a span:after,
+#anidb:not(.nodropdownmenu) #menu-account li.alert a span:before {
+	padding: 0 1px;
+}
+
+#layout-search input.text,
+#layout-search select {
+	padding: 2px 8px;
+	height: 28px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#layout-search select {
+	width: 8em;
+}
+
+#layout-search .text {
+	width: 20em;
+}

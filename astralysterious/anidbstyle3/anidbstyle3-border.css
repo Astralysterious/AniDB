@@ -1,0 +1,19 @@
+#layout-main div.main_all div.account ul.tabs li,
+#layout-main div.main_all div.account ul.tabs li.signup:hover {
+	border-bottom: 2px double;
+}
+
+#layout-main div.main_all div.account ul.tabs li.signup {
+	border-bottom: none;
+}
+
+#layout-main div.info div.extra div table,
+#layout-main div.main_all div.account table td,
+#layout-main div.main_all div.account table th {
+	border: none;
+	border-radius: none;
+}
+
+#layout-main div.edit_actions span > * {
+	border: 1px solid;
+}

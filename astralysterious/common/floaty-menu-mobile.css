@@ -1,0 +1,75 @@
+@media screen and (max-width: 950px) {
+	#anidb:not(.nodropdownmenu) #layout-content {
+		margin-top: 9.75em;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-search div.search a.advsearch {
+		display: none;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-search .text {
+		width: calc(100% - 16em);
+		margin-left: 0.5em;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-search div.search form > div {
+		top: 7em;
+		width: calc(100% - 0.5em);
+		left: -0.5em;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu {
+		margin-top: 10.25em;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
+		padding-top: 0.5em;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li.main a {
+		width: calc(100vw - 1.5em);
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-hint + #layout-nav #layout-menu {
+		margin-top: 12.25em;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-content #layout-main div.g_content {
+		min-height: 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#anidb:not(.nodropdownmenu) #layout-menu > li ul {
+		width: 10em;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu > li ul#menu-account {
+		margin-left: -4em;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li > a span,
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu ul li > span {
+		padding: 0 5px;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu a {
+		padding: 3px 5px;
+	}
+
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu .alert > span a {
+		margin-right: -0.75em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.mod {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#anidb:not(.nodropdownmenu) #layout-menu li.sub-menu.support {
+		display: none;
+	}
+}

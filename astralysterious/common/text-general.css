@@ -1,0 +1,186 @@
+html {
+	font-size: 0.66em;
+	line-height: 1.5;
+}
+
+a.i_button:hover,
+a.i_icon:hover,
+a.i_inline:hover {
+	text-decoration: none;
+}
+
+#layout-search .submit {
+	text-transform: capitalize;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__placeholder,
+.select2-container--default .select2-selection--single .select2-selection__placeholder,
+input[type="password"],
+input[type="text"],
+textarea,
+#layout-main div.main_all div.account div.login button,
+#layout-menu li.sub-menu,
+#layout-search .submit,
+#layout-search input.text,
+#layout-search select,
+#layout-tabs {
+	font-size: 1.23rem;
+}
+
+button,
+input[type="button"],
+input[type="checkbox"],
+input[type="submit"],
+select,
+#layout-main div.report_all div.body ul li,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-main ul.g_list li,
+#layout-tabs ul.main-tabs > li {
+	font-size: 1.04rem;
+}
+
+#layout-main div.review span.stamp,
+#layout-main div.userpage_all div.blog div.g_timedentry span.stamp {
+	font-size: 0.86rem;
+}
+
+#menu-account li.alert a span:after,
+#menu-account li.alert a span:before {
+	content: "!";
+}
+
+input[type="button"] {
+	cursor: pointer;
+}
+
+#layout-main div.g_bubble.spoiler button.spoiler {
+	font-weight: normal;
+}
+
+#layout-main div.chartag-list span.size10 a,
+#layout-main div.chartag-list span.size6 a,
+#layout-main div.chartag-list span.size9 a,
+#layout-main div.tag-column div.tag[data-anidb-weight="0"] .name a,
+#layout-main div.tag-column div.tag[data-anidb-weight="400"] .name a,
+#layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
+	font-weight: bold;
+}
+
+#layout-main div.tag-column div.tag[data-anidb-weight="500"] .name a,
+#layout-main div.tag-column div.tag[data-anidb-weight="600"] .name a {
+	font-size: 1.33rem;
+}
+
+.g_msg h2 > span:before,
+#layout-main .g_section > form > h2 > span:before,
+#layout-main .g_section > h2 > span:before {
+	content: "» ";
+}
+
+.g_msg h2 > span:after,
+#layout-main .g_section > form > h2 > span:after,
+#layout-main .g_section > h2 > span:after {
+	content: " «";
+}
+
+a.button,
+a.confirmButton,
+button.button,
+button.confirmButton,
+input.button,
+input.confirmButton {
+	text-shadow: none;
+}
+
+.ajax-file-upload span,
+.g_button a span,
+h2 span,
+h4 span,
+#layout-main .g_bubble.graph div.header,
+#layout-main > h1,
+#layout-main div.admin_all div.g_menu h4 span,
+#layout-main div.anime_all div.groups td.state a,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.edit_actions span,
+#layout-main div.g_timedentry h4,
+#layout-main div.group_all div.group_released td.state a,
+#layout-main tr.header th,
+#layout-main tr.header th.sortable a,
+#layout-menu li.sub-menu span.tab {
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+.ajax-file-upload span,
+#layout-main .g_bubble.graph div.header,
+#layout-main div.admin_all div.g_menu h4 span,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.g_timedentry h4,
+#layout-main tr.header th,
+#layout-main tr.header th.sortable a,
+#layout-menu li.sub-menu span.tab {
+	font-weight: bold;
+}
+
+.g_button a span,
+button,
+h2 span,
+h4 span,
+#layout-main .g_bubble.graph div.header,
+#layout-main div.animeatt_all div.review > h4,
+#layout-main div.block div.data table th,
+#layout-main div.edit_actions span,
+#layout-main div.g_definitionlist tr th,
+#layout-main div.g_menu.user ul li,
+#layout-main div.g_timedentry h4,
+#layout-main div.tabbed_pane ul.tabs li,
+#layout-tabs ul.main-tabs {
+	text-transform: capitalize;
+}
+
+#layout-main div.admin_all div.g_menu h4 span,
+#layout-main tr.header th,
+#layout-main tr.header th.sortable a,
+#layout-menu li.sub-menu span.tab {
+	font-variant: small-caps;
+	font-size: 1.1rem;
+}
+
+#layout-main div.edit_actions span + span:before,
+#layout-main div.edit_actions span:after,
+#layout-main div.edit_actions span:before {
+	content: "";
+}
+
+a.button,
+a.confirmButton,
+button.button,
+button.confirmButton,
+input.button,
+input.confirmButton,
+#layout-main div.edit_actions span > *,
+#layout-main table.filelist tr.undumped td.id a {
+	font-weight: normal;
+}
+
+.g_button a span {
+	font-size: 1rem;
+}
+
+h1 a,
+h1 a:link,
+h1 a:visited,
+h4 a:not(.i_icon),
+th a,
+th a:link,
+th a:visited {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+#layout-main .group_all .filelist td.date.added {
+	font-style: italic;
+}
+
+.g_segmentlist th {
+	font-variant: small-caps;
+}

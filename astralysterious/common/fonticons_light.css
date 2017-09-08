@@ -1,0 +1,727 @@
+/*https://fortawesome.github.io BEGIN*/
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
+	src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+}
+
+#layout-main div.tabbed_pane ul.tabs .collapse,
+#layout-main div.tabbed_pane ul.tabs .reset_selection_mode,
+#layout-main div.tabbed_pane ul.tabs .save_as_default {
+	display: inline-block;
+}
+
+.g_bubble .seiyuu a.favourite:before,
+.g_bubble.favourite > div.data div.name > a:before,
+.i_comment,
+.i_comment_add,
+.i_comment_creq,
+.i_comment_delete,
+.i_comment_edit,
+.i_comment_info,
+.i_comment_move,
+.i_comment_quote,
+.i_comment_report,
+.i_comment_revisions,
+.i_comment_setactive,
+.i_comment_undelete,
+.i_favourites,
+.i_favourites_no,
+.i_forum_add,
+.i_forum_delete,
+.i_forum_edit,
+.i_forum_group,
+.i_general_list,
+.i_help,
+.i_info,
+.i_liststate_edit,
+.i_minus,
+.i_moveable,
+.i_mylist_add,
+.i_mylist_delete,
+.i_mylist_edit,
+.i_mylist_no,
+.i_plus,
+.i_pm_delete,
+.i_pm_reply,
+.i_review_add,
+.i_tab_collapse,
+.i_tab_default,
+.i_tab_expand,
+.i_tab_reset,
+.i_top,
+.i_topic_add,
+.i_topic_delete,
+.i_topic_history,
+.i_topic_lock,
+.i_topic_locked,
+.i_topic_move,
+.i_topic_read,
+.i_topic_split,
+.i_topic_subscribe,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_topic_unsubscribe,
+.i_waifu_add,
+.i_waifu_delete,
+.i_wishlist,
+.i_wishlist_add,
+.i_wishlist_delete,
+.i_wishlist_edit,
+td.name > .favourite:before,
+td.name.favourite > a:before,
+tr.favourite > td.name.anime > a:before {
+	background-image: none !important;
+}
+
+.g_bubble .seiyuu a.favourite:before,
+.g_bubble.favourite > div.data div.name > a:before,
+.g_button.upload a,
+.i_comment,
+.i_comment_add,
+.i_comment_creq,
+.i_comment_delete,
+.i_comment_edit,
+.i_comment_info,
+.i_comment_move,
+.i_comment_quote,
+.i_comment_report,
+.i_comment_revisions,
+.i_comment_setactive,
+.i_comment_undelete,
+.i_favourites,
+.i_favourites_no,
+.i_forum_add,
+.i_forum_delete,
+.i_forum_edit,
+.i_forum_group,
+.i_general_list,
+.i_help,
+.i_info,
+.i_liststate_edit,
+.i_minus,
+.i_moveable,
+.i_mylist_add,
+.i_mylist_delete,
+.i_mylist_edit,
+.i_mylist_no,
+.i_plus,
+.i_pm_delete,
+.i_pm_reply,
+.i_review_add,
+.i_tab_collapse,
+.i_tab_default,
+.i_tab_expand,
+.i_tab_reset,
+.i_top,
+.i_topic_add,
+.i_topic_delete,
+.i_topic_history,
+.i_topic_lock,
+.i_topic_locked,
+.i_topic_move,
+.i_topic_read,
+.i_topic_split,
+.i_topic_subscribe,
+.i_topic_undelete,
+.i_topic_unlock,
+.i_topic_unsubscribe,
+.i_waifu_add,
+.i_waifu_delete,
+.i_wishlist,
+.i_wishlist_add,
+.i_wishlist_delete,
+.i_wishlist_edit,
+button,
+td.name > .favourite:before,
+td.name.favourite > a:before,
+tr.favourite > td.name.anime > a:before,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .next_new_creq a,
+#layout-main div.edit_actions span > *,
+#layout-main div.msg_all div.buttons li a,
+#layout-main div.msg_all ul.g_list li.sent a,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink,
+#layout-tabs ul li a {
+	display: inline-block;
+	font-family: FontAwesome,Arial,Helvetica,sans-serif !important;
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+	line-height: 16px;
+	margin: 0;
+}
+
+.g_button.upload a,
+button,
+#layout-main div.creq_all .links .creq_list a,
+#layout-main div.creq_all .links .next_creq a,
+#layout-main div.creq_all .links .next_new_creq a,
+#layout-main ul.g_list li a,
+#layout-main ul.g_list li span.nolink,
+#layout-search .submit {
+	padding-left: 4px;
+}
+
+.g_button.upload a:before,
+.i_moveable:before,
+button:before,
+#layout-main div.creq_all .links a:before,
+#layout-main div.edit_actions span > *:before,
+#layout-main div.msg_all div.buttons li a:before,
+#layout-main ul.g_list li a:before,
+#layout-main ul.g_list li span.nolink:before,
+#layout-tabs ul li a:before {
+	padding-right: 6px;
+}
+
+button:before,
+#layout-main ul.g_list li.submit a:before {
+	content: "\f00c";
+}
+
+.i_topic_unlock:before {
+	content: "\f09c";
+}
+
+.i_topic_lock:before,
+.i_topic_locked:before {
+	content: "\f023";
+}
+
+.i_comment_add:before,
+.i_topic_add:before {
+	content: "\f0e5";
+}
+
+.i_comment_revisions:before {
+	content: "\f044";
+}
+
+.i_comment_move:before,
+.i_topic_move:before,
+#layout-main ul.g_list li.move a:before {
+	content: "\f0b2";
+}
+
+.i_comment_edit:before,
+.i_forum_edit:before,
+button.default:before,
+button.edit:before,
+button.update:before,
+#layout-main div.edit_actions span.modify > *:before,
+#layout-main ul.g_list li.edit a:before {
+	content: "\f040";
+}
+
+.i_comment_quote:before {
+	content: "\f10d";
+}
+
+.i_comment_info:before,
+#layout-main ul.g_list li.help a:before,
+#layout-main ul.g_list li.info a:before {
+	content: "\f05a";
+}
+
+.i_comment_setactive:before {
+	content: "\f00c";
+}
+
+#layout-main div.creq_all .creq_buttons button.deny:before,
+#layout-main ul.g_list li.abort a:before,
+#layout-main ul.g_list li.cancel a:before {
+	content: "\f05e";
+}
+
+.g_button .i_general_delete:before,
+.i_comment_creq:before,
+.i_comment_delete:before,
+.i_forum_delete:before,
+.i_mylist_delete:before,
+.i_pm_delete:before,
+.i_topic_delete:before,
+.i_wishlist_delete:before,
+button.delete:before,
+#layout-main div.msg_all div.buttons button.delete:before,
+#layout-main div.msg_all div.buttons li.delete a:before,
+#layout-main ul.g_list li.delete a:before {
+	content: "\f00d";
+}
+
+.i_comment_undelete:before,
+.i_topic_undelete:before {
+	content: "\f021";
+}
+
+.i_comment_report:before {
+	content: "\f024";
+}
+
+.i_topic_history:before,
+#layout-main ul.g_list li.history a:before {
+	content: "\f1da";
+}
+
+.i_topic_split:before {
+	content: "\f0ec";
+}
+
+.i_topic_subscribe:before,
+.i_topic_unsubscribe:before {
+	content: "\f09e";
+}
+
+button.search:before,
+#layout-search .submit:before {
+	content: "\f002";
+}
+
+#layout-main ul.g_list li.back a:before,
+#layout-main ul.g_list li.show a:before {
+	content: "\f112";
+}
+
+.i_forum_group:before,
+button.reboot:before,
+#layout-main ul.g_list li.convert a:before,
+#layout-main ul.g_list li.reload a:before {
+	content: "\f021";
+}
+
+#layout-main div.creq_all .links .creq_list a:before,
+#layout-main div.edit_actions span.show > *:before,
+#layout-main ul.g_list li.latest a:before,
+#layout-main ul.g_list li.list a:before {
+	content: "\f0ca";
+}
+
+#layout-main div.creq_all .links .next_creq a:before,
+#layout-main div.creq_all .links .next_new_creq a:before {
+	content: "\f061";
+}
+
+button.set_default:before,
+#layout-main div.creq_all .creq_buttons button.lock:before {
+	content: "\f023";
+}
+
+#layout-main div.creq_all .creq_buttons button.unlock:before {
+	content: "\f09c";
+}
+
+#layout-main div.creq_all .creq_buttons button.revert:before,
+#layout-main div.creq_all .creq_buttons button.revoke:before {
+	content: "\f0e2";
+}
+
+#layout-main div.creq_all .creq_buttons button.assign:before {
+	content: "\f234";
+}
+
+#layout-main div.creq_all .creq_messages button.reply:before {
+	content: "\f112";
+}
+
+.i_comment:after,
+#layout-main div.creq_all .creq_messages button.note:before {
+	content: "\f016";
+}
+
+#layout-main div.creq_all .creq_messages button.annotation:before {
+	content: "\f044";
+}
+
+button.reset:before,
+#layout-main ul.g_list li.reset a:before {
+	content: "\f0e2";
+}
+
+button.next:before,
+button.right:before,
+#layout-main ul.g_list li.next a:before,
+#layout-main ul.g_list li.next span.nolink:before {
+	content: "\f061";
+}
+
+button.left:before,
+button.prev:before,
+#layout-main ul.g_list li.prev a:before,
+#layout-main ul.g_list li.prev span.nolink:before {
+	content: "\f060";
+}
+
+#layout-tabs ul li a:before {
+	content: "\f07b";
+}
+
+.i_pm_reply:before,
+button.reply:before,
+#layout-main div.msg_all div.buttons li.new a:before,
+#layout-main div.msg_all ul.g_list li.sent a:before {
+	content: "\f003";
+}
+
+button.load:before {
+	content: "\f115";
+}
+
+#layout-main ul.g_list li.stats a:before {
+	content: "\f080";
+}
+
+#layout-main ul.g_list li.relations a:before,
+#layout-main ul.g_list li.votes a:before {
+	content: "\f201";
+}
+
+#layout-main ul.g_list li.export a:before {
+	content: "\f08e";
+}
+
+.i_forum_add:before,
+.i_review_add:before,
+button.add:before,
+#layout-main div.edit_actions span.add > *:before,
+#layout-main ul.g_list li.add a:before {
+	content: "\f067";
+}
+
+button.ratenow:before,
+button.tmpratenow:before,
+button.vote:before {
+	content: "\f087";
+}
+
+#layout-main ul.g_list li.merge a:before {
+	content: "\f066";
+}
+
+button.up:before {
+	content: "\f062";
+}
+
+button.down:before {
+	content: "\f063";
+}
+
+#layout-main ul.g_list li.users a:before {
+	content: "\f0c0";
+}
+
+.g_button.upload a:before,
+button.upload {
+	content: "\f093";
+}
+
+#layout-main ul.g_list li.filter a:before {
+	content: "\f0b0";
+}
+
+.i_topic_read:before,
+button.preview:before,
+button.spoiler:before {
+	content: "\f06e";
+}
+
+.i_moveable:before {
+	content: "\f047";
+}
+
+/*image only - no text*/
+.i_comment,
+.i_favourites,
+.i_favourites_no,
+.i_general_list,
+.i_help,
+.i_info,
+.i_liststate_edit,
+.i_minus,
+.i_mylist_add,
+.i_mylist_delete,
+.i_mylist_edit,
+.i_mylist_no,
+.i_plus,
+.i_tab_collapse,
+.i_tab_default,
+.i_tab_expand,
+.i_tab_reset,
+.i_top,
+.i_waifu_add,
+.i_waifu_delete,
+.i_wishlist,
+.i_wishlist_add,
+.i_wishlist_delete,
+.i_wishlist_edit {
+	height: auto;
+	width: 16px;
+	font-size: 1.33rem;
+}
+
+.i_plus:after {
+	content: "\f0fe";
+	cursor: pointer; /*for spans generated by ajax*/
+}
+
+.i_minus:after {
+	content: "\f146";
+	cursor: pointer; /*for spans generated by ajax*/
+}
+
+.i_info:after {
+	content: "\f05a";
+}
+
+.i_help:after {
+	content: "\f059";
+	cursor: help;
+}
+
+.i_top:after {
+	content: "\f0aa";
+}
+
+.i_liststate_edit:after {
+	content: "\f044";
+}
+
+.i_general_list:after {
+	content: "\f0ca";
+}
+
+.i_tab_collapse:after {
+	content: "\f068";
+}
+
+.i_tab_expand:after {
+	content: "\f067";
+}
+
+.i_tab_default:after {
+	content: "\f004";
+}
+
+.i_tab_reset:after {
+	content: "\f05e";
+}
+
+.i_favourites:after {
+	content: "\f005";
+}
+
+.i_favourites_no:after {
+	content: "\f006";
+}
+
+.i_waifu_add:after,
+.i_waifu_add:before {
+	content: "\f10c";
+}
+
+.i_waifu_delete:after {
+	content: "\f00d";
+}
+
+.g_bubble .seiyuu a.favourite:before,
+.g_bubble.favourite > div.data div.name > a:before,
+td.name > .favourite:before,
+td.name.favourite > a:before,
+tr.favourite > td.name.anime > a:before {
+	color: #ffd751;
+	content: "\f005";
+	font-size: 1.25rem;
+	vertical-align: top;
+}
+
+/*stacked icons*/
+.i_mylist_add,
+.i_mylist_delete,
+.i_mylist_edit,
+.i_seen_yes.add,
+.i_tv_special,
+.i_waifu_add,
+.i_wishlist_add,
+.i_wishlist_blacklist,
+.i_wishlist_buddy,
+.i_wishlist_delete,
+.i_wishlist_edit,
+.i_wishlist_toget,
+.i_wishlist_towatch,
+.i_wishlist_undefined {
+	text-align: left !important; /*to compensate for the added width by the second icon*/
+}
+
+.i_waifu_add {
+	transform: rotate(45deg);
+	margin-left: 1.9em !important;
+}
+
+.i_mylist_add:before,
+.i_mylist_delete:before,
+.i_mylist_edit:before,
+.i_tv_special:before,
+.i_wishlist_add:before,
+.i_wishlist_delete:before,
+.i_wishlist_edit:before {
+	position: absolute;
+	font-size: 1rem;
+	text-align: right;
+	width: 16px;
+	padding-top: 2px;
+	text-shadow: 0.07em 0.07em 0 #ffffff, -0.07em -0.07em 0 #ffffff, 0.07em -0.07em 0 #ffffff, -0.07em 0.07em 0 #ffffff, 0.07em 0.07em 0 #ffffff;
+}
+
+.i_waifu_add:before {
+	position: absolute;
+	text-align: right;
+	width: 16px;
+	padding-left: 3px;
+}
+
+.i_mylist_add:before,
+.i_mylist_delete:before,
+.i_mylist_edit:before,
+.i_wishlist_add:before,
+.i_wishlist_delete:before,
+.i_wishlist_edit:before {
+	font-size: 0.8rem;
+	padding-top: 3px;
+}
+
+.i_mylist_edit:before,
+.i_wishlist_edit:before {
+	content: "\f040";
+}
+
+.i_mylist_add:before,
+.i_wishlist_add:before {
+	content: "\f067";
+}
+
+.i_wishlist:after,
+.i_wishlist_add:after,
+.i_wishlist_delete:after,
+.i_wishlist_edit:after {
+	content: "\f06b";
+}
+
+.i_mylist_add:after,
+.i_mylist_delete:after,
+.i_mylist_edit:after,
+.i_mylist_no:after {
+	content: "\f0f6";
+}
+
+/*image only - no text*/
+
+/*button icon where a icon only style exists*/
+.g_button .i_general_delete:after {
+	content: "";
+}
+
+/*https://fortawesome.github.io END*/
+
+/*icon created from text*/
+.i_ext,
+.i_video_1080,
+.i_video_480,
+.i_video_720,
+.i_vrs_2,
+.i_vrs_3,
+.i_vrs_4,
+.i_vrs_5,
+.i_vrs_6,
+.i_vrs_7,
+.i_vrs_8,
+.i_vrs_9 {
+	background-image: none !important;
+	background-color: #105289;
+	border-radius: 3px;
+	height: 14px;
+	width: 16px;
+}
+
+.i_ext,
+.i_video_1080,
+.i_video_480,
+.i_video_720 {
+	display: inline-block !important;
+	width: 38px;
+}
+
+.i_ext span,
+.i_video_1080 span,
+.i_video_480 span,
+.i_video_720 span,
+.i_vrs_2 span,
+.i_vrs_3 span,
+.i_vrs_4 span,
+.i_vrs_5 span,
+.i_vrs_6 span,
+.i_vrs_7 span,
+.i_vrs_8 span,
+.i_vrs_9 span {
+	color: #FFFFFF;
+	display: inline-block !important;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 0.86rem;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	vertical-align: top;
+	line-height: 1.4;
+}
+
+.i_ext.audio {
+	background-color: #AA0000;
+}
+
+.i_ext.subtitle {
+	background-color: #356E35;
+}
+
+.i_ext.archive {
+	background-color: #5A3A78;
+}
+
+.i_ext.linker {
+	background-color: #BD7E19;
+}
+
+.i_ext.other {
+	background-color: #444444;
+}
+
+.i_video_1080,
+.i_video_480,
+.i_video_720 {
+	background-color: #8A56AA;
+}
+
+/*icon created from text*/
+.i_rate_halfstar,
+.i_rate_high,
+.i_rate_low,
+.i_rate_med,
+.i_rate_star,
+.i_rate_veryhigh,
+.i_rate_verylow {
+	background-image: url(../icons/icon/anidb_rate_star.png);
+}
+
+.i_icon {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.i_icon.i_tab_collapse,
+.i_icon.i_tab_default,
+.i_icon.i_tab_expand,
+.i_icon.i_tab_reset {
+	vertical-align: middle;
+}
